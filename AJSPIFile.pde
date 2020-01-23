@@ -6,8 +6,8 @@ void setup() {
   size(900, 500);
   //background(0);
 
-  Scanner scan=new Scanner("Desktop/mapProjects/6th/AJSPIFile/spi.csv"); 
-  SPIList spi=new SPIList("Desktop/mapProjects/6th/AJSPIFile/spi.csv"); 
+  Scanner scan=new Scanner("spi.csv"); 
+  SPIList spi=new SPIList("spi.csv"); 
   out.println(spi);
 
   SPIList s=new SPIList();
