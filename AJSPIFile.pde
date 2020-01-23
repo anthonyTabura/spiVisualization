@@ -172,7 +172,7 @@ public class SPI implements Comparable<SPI> {
 
     try {
 
-      Scanner scan =new Scanner(new File("Desktop/mapProjects/6th/AJSPIFile/spi.csv"));
+      Scanner scan =new Scanner(new File("spi.csv"));
 
       scan.nextLine();
 
